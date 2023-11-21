@@ -1,0 +1,93 @@
+.bgOrange {
+    background-color: orange;
+}
+
+.bgBlue {
+    background-color: blue;
+}
+
+.bgYellow {
+    background-color: yellow;
+}
+
+body {
+    margin: 0;
+}
+
+#mainHeader {
+    height: 80px;
+
+    box-shadow: 0 1px 0 black;
+}
+
+#mainHeader > nav {
+    width: 910px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+#mainHeader > nav > a {
+    width: 130px;
+    text-decoration: none;
+    color: #666;
+}
+
+#mainHeader > nav > a:hover {
+    background-color: red;
+    color: white;
+}
+
+#mainHeader > nav > a > img {
+    display: block;
+    width: 28px;
+    margin: 10px auto 0;
+}
+
+#mainHeader > nav > a > span {
+    display: block;
+    margin: 5px;
+    text-align: center;
+}
+
+#colorLine {
+    width: 910px;
+    height: 5px;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+#colorLine > div {
+    width: 130px;
+    height: 100%;
+}
+
+#colorLine > div:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+#colorLine > div:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+#mainContent {
+    width: 910px;
+    margin: 0 auto;
+}
+
+#mainContent > h1 {
+    margin: 10px 0 10px 10px;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #666;
+}
+
+#pokemonCards {
+    background-color: antiquewhite;
+    min-height: 100px;
+
+    display: flex;
+}
